@@ -1,0 +1,54 @@
+body{
+    background-image: url(Gambar/ppp.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    text-align: center;
+    color: aliceblue;
+
+}
+img{
+    width: 150px;
+    height: 225px;
+}
+
+#pilihButton{
+    background-color: #007bff;
+    color: #361e1e;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: auto; /* Membuat tombol berada di tengah secara horizontal */
+    display: block; /* Untuk membuat tombol menjadi elemen blok */
+}
+#pilihButton:hover {
+
+    background-color: #0056b3;
+}
+
+.menu-list {
+    display: none;
+    justify-content: center; /* Memindahkan pilihan menu ke tengah secara horizontal */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk kotak dan jarak di setiap item menu */
+.card{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: ;
+
+}
+
+.menu-list a:hover {
+    background-color: yellow;
+    color: #000000;
+    border-color: #0056b3;
+}

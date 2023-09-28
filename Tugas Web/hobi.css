@@ -1,0 +1,19 @@
+body{
+    background-image: url(Gambar/ppp.jpg);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+img{
+    width: 200px;
+}
+a{
+    color: aliceblue;
+}

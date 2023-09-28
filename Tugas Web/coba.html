@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilihan Menu</title>
+    <style>
+        /* Gaya CSS untuk menyembunyikan pilihan menu awal */
+        .menu-list {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="pilihButton">Pilih</button>
+    <ul class="menu-list" id="menuList">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Hobby</a></li>
+        <li><a href="#">Skill</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <script>
+        // Fungsi untuk menampilkan pilihan menu saat tombol "Pilih" diklik
+        document.getElementById("pilihButton").addEventListener("click", function() {
+            var menuList = document.getElementById("menuList");
+            if (menuList.style.display === "none" || menuList.style.display === "") {
+                menuList.style.display = "block";
+            } else {
+                menuList.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

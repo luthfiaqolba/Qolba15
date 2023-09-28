@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <center>
+    <img src="Gambar/foto profile.jpeg" alt="">
+    </center>
+    <h1>CV</h1>
+    <h2>Muhammad Nur Luthfia Qolba</h2>
+    <button id="pilihButton">Pilih</button>
+    <ul class="menu-list" id="menuList">
+        <!-- <div class="card"><li><a href="">Home</a></li></div> -->
+        <div class="card"><li><a href="about.html">About Us</a></li></div>
+        <div class="card"><li><a href="hobby.html">Hobby</a></li></div>
+        <div class="card"><li><a href="skill.html">Skill</a></li></div>
+        <div class="card"><li><a href="contactus.html">Contact</a></li></div>
+    </ul>
+
+    <script async>
+        // Fungsi untuk menampilkan pilihan menu saat tombol "Pilih" diklik
+        document.getElementById("pilihButton").addEventListener("click", function() {
+            var menuList = document.getElementById("menuList");
+            if (menuList.style.display === "none" || menuList.style.display === "") {
+                menuList.style.display = "block";
+            } else {
+                menuList.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
